@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Entrando no grupo…</title>
+</head>
+<body>
+  <p>Aguarde, você será levado ao grupo em 2 segundos…</p>
+  <p>Se não, <a id="link" href="https://seu-grupo.exemplo">clique aqui</a>.</p>
+
+  <script>
+    // substitua pelo seu link
+    const groupUrl = "https://chat.whatsapp.com/Fi1QPkZufqUEJU8sVWad1S?mode=ems_copy_t";
+    // timeout em milissegundos
+    setTimeout(() => {
+      window.location.href = groupUrl;
+    }, 1000);
+  </script>
+</body>
+</html>
